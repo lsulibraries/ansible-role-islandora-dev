@@ -1,0 +1,5 @@
+---
+- name: Fetch modules via drush
+  command: "drush -n dl {{ new_modules }}"
+  args:
+    chdir: "{{drupal_core_path }}"

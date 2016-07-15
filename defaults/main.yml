@@ -18,3 +18,9 @@ whitelist_by_collection:
   - { name: mcneese, value: "'mcneese-p16313coll74: mcneese-psl:'"}
   - { name: state,   value: "'state-lhp: state-lwp: state-p267101coll4:'"}
   - { name: nsu,     value: "'nsu-mpa: nsu-ncc:'"}
+
+new_modules:
+  - feeds
+
+modules_to_enable:
+  - feeds
