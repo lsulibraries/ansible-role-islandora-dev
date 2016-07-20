@@ -3,3 +3,8 @@
   command: "drush -n dl {{ new_modules }}"
   args:
     chdir: "{{drupal_core_path }}"
+
+- name: enable modules via drush
+  command: "drush -y en {{ modules_to_enable }}"
+  args:
+    chdir: "{{drupal_core_path }}"

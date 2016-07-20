@@ -13,14 +13,14 @@ whitelist_by_collection:
   - { name: nicholls,value: "'nicholls-mpf: nicholls-p15140coll51:'"}
   - { name: ulm,     value: "'ulm-p120701coll10: ulm-p15140coll26: ulm-p15140coll27: ulm-p16313coll1: ulm-p16313coll43:'"}
   - { name: lsuhsc,  value: "'lsuhscno-lsubk01: lsuhscno-ncc: lsuhscno-p120701coll26: lsuhscno-p120701coll17: lsuhscno-p15140coll16: lsuhscno-p15140coll19: lsuhscno-p15140coll49: lsuhscno-p15140coll50: lsuhscno-p15140coll52: lsuhscno-p16313coll19:'"}
-  - { name: lsus,    value: "'lsus-tbp: lsus-nwm: lsus-stc:'"}
+#  - { name: lsus,    value: "'lsus-tbp: lsus-nwm: lsus-stc:'"}
   - { name: uno,     value: "'uno-p120701coll29: uno-fbm: uno-hic: uno-ani: uno-jbf: uno-p120701coll13: uno-p120701coll15: uno-p120701coll25: uno-p120701coll8: uno-p15140coll30: uno-p15140coll31: uno-p15140coll4: uno-p15140coll42: uno-p15140coll7: uno-p16313coll2: uno-p16313coll22: uno-p16313coll23: uno-p16313coll61: uno-p16313coll62: uno-p16313coll72: uno-p16313coll86:'"}
   - { name: mcneese, value: "'mcneese-p16313coll74: mcneese-psl:'"}
   - { name: state,   value: "'state-lhp: state-lwp: state-p267101coll4:'"}
-  - { name: nsu,     value: "'nsu-mpa: nsu-ncc:'"}
+#  - { name: nsu,     value: "'nsu-mpa: nsu-ncc:'"}
 
-new_modules:
-  - feeds
+new_modules: feeds
 
-modules_to_enable:
-  - feeds
+modules_to_enable: feeds
+
+xdebug_remote_host: 99.99.99.99
