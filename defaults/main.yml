@@ -21,6 +21,6 @@ whitelist_by_collection:
 
 new_modules: feeds
 
-modules_to_enable: feeds
+modules_to_enable: feeds islandora_mods_display
 
 xdebug_remote_host: 99.99.99.99
