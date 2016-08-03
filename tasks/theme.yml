@@ -13,11 +13,11 @@
 - name: enable theme 
   command: 'drush -y en ldl'
   args:
-    chdir: "{{ drupal_core_path }}/sites/{{ item }}"
+    chdir: "{{ drupal_core_path }}/sites/{{ item }}.{{ fqdn_suffix }}"
   with_items: "{{ institutions }}"
 
 - name: set default
   command: 'drush vset theme_default ldl'
   args:
-    chdir: "{{ drupal_core_path }}/sites/{{ item }}"
+    chdir: "{{ drupal_core_path }}/sites/{{ item }}.{{ fqdn_suffix }}"
   with_items: "{{ institutions }}"

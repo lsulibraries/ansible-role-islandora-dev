@@ -7,5 +7,5 @@
 - name: enable modules via drush
   command: "drush -y en {{ modules_to_enable }}"
   args:
-    chdir: "{{ drupal_core_path }}/sites/{{ item }}"
+    chdir: "{{ drupal_core_path }}/sites/{{ item }}.{{ fqdn_suffix }}"
   with_items: "{{ institutions }}"
